@@ -1,0 +1,134 @@
+#container{
+    width: 100%;
+    margin-top: 80px;
+    
+}
+.close{
+    display: none !important;
+}
+.open{
+    display: block !important;
+}
+.types_of_cars{
+    
+    margin: 0 14%;
+}
+.types_of_cars_title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-left: 5px solid var(--main-color);
+    padding-left: 20px;
+}
+.types_of_cars_header{
+    width: 100%;
+}
+.types_of_cars_search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    height: 48px;
+    border: 1px solid var(--boder-color);
+    border-radius: 8px;
+}
+.types_of_cars_search i {
+    font-size: 1.6rem;
+    padding: 0 16px;
+}
+.types_of_cars_search input{
+    height: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    border-radius: 8px;
+}
+.types_of_cars_info{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.types_of_cars_info_title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.types_of_cars_info_filter{
+    font-size: 1.6rem;
+    border: 1px solid var(--boder-color);
+    padding: 8px 16px;
+    border-radius: 8px;
+    position: relative;
+}
+.types_of_cars_info_filter span{
+    padding-right: 20px;
+}
+
+.types_of_cars_info_filter_a-z{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 100%;
+    border: 1px solid var(--boder-color);
+    border-radius: 8px;
+    background-color: var(--while-color);
+    overflow: hidden;
+    z-index: 5;
+    display: none;
+}
+.types_of_cars_info_filter_a-z span{
+    display: block;
+    padding: 5% 0 5% 5%;
+}
+.types_of_cars_info_filter_a-z span:hover{
+    background-color: var(--main-color);
+    color: var(--while-color);
+    opacity: 0.8;
+}
+.types_of_cars_body{
+    width: 100%;
+}
+
+/* phân trang */
+.paging{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paging_icon_next,
+.paging_icon_pre{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    border: 1px solid var(--boder-color);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+
+.paging_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paging_page div{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    border: 1px solid var(--boder-color);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.btn_active{
+    opacity: 0.3;
+}

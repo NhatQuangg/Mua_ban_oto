@@ -1,0 +1,73 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+@media (min-width :1024px){
+    
+
+}
+
+/*table*/
+
+@media (min-width :740px) and (max-width :1023px){
+    
+     
+
+}
+
+/*mobile*/
+
+@media (max-width :739px){
+    .container_sale_car{
+        display: inline-block;
+    }
+    .sale_car_slogan{
+        width: auto;
+        margin: 0 5%;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .sale_car_form{
+        width: auto;
+        margin-right: 0;
+    }
+    .reason{
+        padding: 20px 0;
+    }
+    .reason_body{
+        display: inline-block;
+    }
+    .reason_body_img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .reason_body_content{
+        width: 100%;
+        padding: 40px;
+        margin-right: 0;
+    }
+    .reason_body_content_item_icon{
+        display: inline-flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .reason_body_content_item_title{
+        flex: 1;
+    }
+    .accreditation_header{
+        height: auto;
+    }
+    .accreditation_body{
+        display: inline-block;
+    }
+    .accreditation_body-info{
+        width: 100%;
+    }
+    .accreditation_body-img{
+        width: 100%;
+    }
+}

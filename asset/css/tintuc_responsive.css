@@ -1,0 +1,68 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+@media (min-width :1024px){
+    
+
+}
+
+/*table*/
+
+@media (min-width :740px) and (max-width :1023px){
+    
+     
+
+}
+
+/*mobile*/
+
+@media (max-width :739px){
+    .featured_news{
+        padding: 0 5%;
+    }
+    .featured_news_left{
+        width: 100%;
+        margin-right: 0;
+    }
+    .featured_news_left_header_img{
+        width: 50%;
+    }
+    .featured_news_left_header_info{
+        width: 50%;
+    }
+    .featured_news_left_body_item{
+        width: calc(calc(100% / 3) - 5px);
+    }
+    .featured_news_right{
+        display: none;
+    }
+    .proposal{
+        margin: 0 5%;
+    }
+    .proposal_message_body_item{
+        min-width: calc(calc(100% / 3) - 10px);
+    }
+    .car_sale{
+        margin: 0 5%;
+    }
+    .car_sale_news_item_body_parameter_left{
+        display: block;
+        border-right: none; 
+        padding-right: 10px
+    }
+    .car_sale_news_item_body_parameter_right{
+        margin-left: 0;
+    }
+    .car_sale_news_list{
+        grid-template-columns: calc(calc(100% / 2) - 10px) calc(calc(100% / 2) - 10px);
+        gap: 20px 20px;
+    }
+    .car_sale_news_item_info{
+        padding: 0 5%;  
+    }
+}

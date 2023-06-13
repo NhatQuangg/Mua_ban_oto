@@ -1,0 +1,32 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+@media (min-width :1024px){
+    
+
+}
+
+/*table*/
+
+@media (min-width :740px) and (max-width :1023px){
+    
+     
+
+}
+
+/*mobile*/
+
+@media (max-width :739px){
+    .types_of_cars{
+        margin: 0 5%;
+    }
+    .car_sale_news_list{
+        grid-template-columns: calc(calc(100% / 2) - 10px) calc(calc(100% / 2) - 10px);
+        gap: 20px 20px;
+    }
+}

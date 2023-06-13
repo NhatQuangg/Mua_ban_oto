@@ -1,0 +1,22 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+
+/*mobile*/
+
+@media (max-width :739px){
+    .section__body{
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    
+    .section__body__left{
+        width: 100%;
+       
+    }
+}

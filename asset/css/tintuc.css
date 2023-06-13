@@ -1,0 +1,395 @@
+.featured_news{
+    width: 100%;
+    padding: 0 14%;
+    margin-top: 92px;
+}
+.featured_news_title{
+    
+    margin-bottom: 20px;
+}
+.featured_news_title_link{
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-left: 5px solid var(--main-color);
+    padding-left: 20px;
+}   
+.featured_news_body{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--boder-color);
+}
+.featured_news_left{
+    width: 80%;
+   
+    margin-right: 20px;
+}
+.featured_news_left_header{
+    width: 100%; 
+    height: 296px;
+    background-color: rgba(222, 222, 222,0.2);
+    margin-bottom: 20px;
+}
+.featured_news_left_header_link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--black-color);
+    display: flex;
+    overflow: hidden;
+}
+.featured_news_left_header_link:hover{
+    color: var(--black-color);
+}
+
+.featured_news_left_header_img{
+    width: 70%;
+    height: 100%;
+    border-radius: 8px;
+}
+.featured_news_left_header_info{
+    width: 30%;
+    height: 296px;
+    padding: 15px;
+    overflow: hidden;
+}
+.featured_news_left_header_info_title{
+    width: 100%;
+    height: 87px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.6;
+    overflow: hidden;
+    display: inline-block;
+}
+.featured_news_left_header_info_body{
+    width: 100%;
+    height: 67px;   
+    font-size: 1.4rem;
+    font-weight: 400;
+    overflow: hidden;
+    display: inline-block;
+}
+.featured_news_left_header_info_footer{
+    width: 100%;
+    height: 21px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(146, 144, 144);
+    overflow: hidden;
+    display: inline-block;
+}
+.featured_news_left_body{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.featured_news_left_body_item{
+    width: calc(calc(100% / 3) - 20px);
+}
+.featured_news_left_body_link:hover,
+.featured_news_left_body_link{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.featured_news_left_body_img{
+    width: 100%;
+    height: 145px;
+    border-radius: 8px;
+}
+.featured_news_left_body_info{
+    width: 100%;
+}
+.featured_news_left_body_info_title{
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.featured_news_left_body_info_body{
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.featured_news_left_body_info_footer{
+    font-size: 1.2rem;
+    font-size: 400;
+    color: rgb(146, 144, 144);
+    height: 21px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.featured_news_right{
+    width: 20%;
+    height: 610px;
+}
+.featured_news_right_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*tin de xuat */
+.proposal{
+    margin: 0 14%;
+}
+.proposal_message{
+    width: 100%;
+    
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 40px auto 40px auto;
+    position: relative;
+    
+}
+
+
+
+
+.proposal_message_header{
+    margin-bottom: 20px;
+}
+
+
+.proposal_message_header_left{
+    font-size: 2rem;
+    font-weight: 600;
+    border-left: 5px solid var(--main-color);
+    padding-left: 20px;
+    transform: translateY(-50%);
+}
+.proposal_message_header_right{
+    font-size: 2rem;
+    font-weight: 600;
+    float: right;
+    display: flex;
+    padding-right: 20px;
+}
+.proposal_message_wrapper{
+    width: 100%;
+    overflow-x: 100%;
+    overflow: hidden;
+}
+/*.proposal_message_wrapper::-webkit-scrollbar{
+    width: 0;
+}*/
+.proposal_message_body{
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.25s linear;
+   
+}
+
+.control_right{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 4rem;
+    color: var(--while-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.control_left{
+    
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 4rem;
+    color: var(--while-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.control_right:hover,
+.control_left:hover{
+    background-color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+.proposal_message_body_item{
+    /*độ rộng tối thiểu của item nên ko bị ảnh hưởn 
+    độ rộng tự thay đổi của flex*/
+    min-width: calc(calc(100% / 4) - 10px);
+    min-height: 285px;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.proposal_message_body_item_link:hover{
+    text-decoration: none;
+    color: var(--main-color);
+} 
+.proposal_message_body_item_link{
+    width: 100%;
+    height: 100%;
+    color: var(--black-color);
+    text-decoration: none;
+}
+.proposal_message_body_item_img{
+    width: 100%;
+    height: 152px;
+    margin-bottom: 20px;
+}
+.proposal_message_body_item_info{
+    width: 100%;
+}
+.proposal_message_body_item_info_title{
+    width: 100%;
+    height: 44px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.proposal_message_body_item_info_content{
+    width: 100%;
+    height: 67px;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+
+/*tin bán xe */
+.car_sale{
+    /* width: 100%; */
+    margin: 0 14%;
+}
+.car_sale_news{
+    width: 100%;
+    margin: 40px auto;
+
+}
+.car_sale_news_header{
+   
+}
+.car_sale_news_header_link{
+    text-decoration: none;
+    color: var(--black-color);
+    
+}
+.car_sale_news_header_right{
+    font-size: 2rem;
+    font-weight: 600;
+    border-left: 5px solid var(--main-color);
+    padding-left: 20px;
+    display: inline-block;
+}
+.car_sale_news_header_left{
+    font-size: 2rem;
+    font-weight: 600;
+    float: right;
+    display: flex;
+    padding-right: 20px;
+}
+
+.car_sale_news_body{
+    width: 100%;
+    margin-top: 20px;
+}
+.car_sale_news_list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(calc(100% / 3) - 10px) calc(calc(100% / 3) - 10px) calc(calc(100% / 3) - 10px);
+    gap: 15px 15px;
+    
+    
+}
+
+
+.car_sale_news_item{
+   
+    min-width: calc(calc(100% / 3) - 10px);
+    display: block;
+    box-shadow: 1px 1px 4px#939191,-1px -1px 4px#939191; 
+    
+}
+
+.car_sale_news_item_header{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid;
+}
+.car_sale_news_item_header_img{
+    width: 100%;
+    height: 100%;
+}
+
+.car_sale_news_item_info{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.car_sale_news_item_title{
+    height: 25px;
+    overflow: hidden;
+}
+.car_sale_news_item_title_link:hover{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.car_sale_news_item_title_link{
+    
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.car_sale_news_item_body{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.car_sale_news_item_body_parameter_left{
+    display: inline-block;
+    border-right: 2px solid var(--black-color);
+    padding-right: 10px;
+}
+.car_sale_news_item_body_parameter_right{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.car_sale_news_item_body_list_Status{
+    margin-top: 5px;
+    /* height: 30px; */
+    overflow: hidden;
+}
+
+.car_sale_news_item_body_item_Status{
+    width: 72px;
+    height: 25px;
+    border: 1px solid var(--black-color);
+    display: inline-block;
+    text-align: start;
+    padding: 2px 3px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 5px;
+    
+}
+.car_sale_news_item_footer{
+    margin: 10px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--main-color);
+}

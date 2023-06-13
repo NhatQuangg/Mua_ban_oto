@@ -1,0 +1,136 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+@media (min-width :1024px){
+    
+
+}
+
+/*table*/
+
+@media (min-width :740px) and (max-width :1023px){
+    
+     .header{
+        max-width: 100%;
+    }
+    .grid{
+        justify-content: space-around;
+    }
+    .carouselId{
+        max-width: 100%;
+        
+    }
+    .header__nar-item{
+        margin-left: 15px;
+    } 
+
+}
+
+/*mobile*/
+
+@media (max-width :739px){
+    
+     #app{
+        overflow: hidden;
+    }
+   
+    .none{
+        display: none;
+    }
+    .grid{
+        height: 100%;
+        display: flex;
+        /* align-items: start;
+        justify-content: space-between; */
+        margin: 0 3%;
+    }
+   
+    .header__navbar{
+        display: inline-block;
+        height: 100%;
+        overflow: hidden;
+        flex: 1;
+    }
+    .header__navbar-list {
+        width: 100%;
+        display: inline-block;
+    }
+    .header__nar-item{
+        display: inline-block;
+        margin-left: 0;
+        width: 100%;
+    }
+
+   
+    .header__info{
+        position: absolute;
+        top: 0;
+        right: 0;
+    } 
+
+    .header__bar{
+        display: inline-block;
+        padding: 0 20px;
+        line-height: 60px;
+        margin-left: 30px;
+        background-color: var(--boder-color);
+        
+    }
+    .header__bar i {
+        font-size: 2rem;
+    }
+    .car__sales{
+        width: 100%;
+        display: inherit;
+    }
+    .car__sales-buy{
+        border-right: none;
+        padding-right: 0;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #000;
+
+    }
+    .car__sales-sale{
+        padding-left: 0;
+        padding-top: 30px;
+        width: 100%;
+    } 
+    .header__sdt{
+        display: none;
+    }
+    .header__info{
+        float: right;
+        
+    }
+    .header__account{
+        /* line-height: 60px; */
+    }
+    .car__sales-lines-list{
+        flex-wrap: wrap;
+    }
+    .car__sales-lines-item{
+        width: calc(100% / 2);
+    }
+    .car__sales-sale-active-list,
+    .car__sales-buy-active-list{
+        flex-wrap: wrap;
+    }
+    .car__sales-sale-active-item,
+    .car__sales-buy-active-item{
+        width: calc(calc(100% / 2) - 16px);
+        margin-bottom: 8%;
+    }
+    .products-list{
+        grid-template-columns: calc(100% / 2) calc(100% / 2);
+    }
+    .products-item{
+        padding-left: 0;
+        text-align: center;
+    }
+    
+}
